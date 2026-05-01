@@ -279,3 +279,45 @@ body {
 .botao-plano:hover {
     background-color: #ea580c;
 }
+
+.chamada {
+
+    background:  linear-gradient(#f97316, #ea580c);
+    padding: 78px;
+    text-align: center;
+
+}
+
+.chamada-conteudo {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.chamada-conteudo  h2 {
+
+    font-size: 20px;
+    margin-bottom: 12px;
+} 
+
+.chamada p {
+
+    font-size: 20px;
+    margin-bottom: 25px;
+
+}
+
+.chamada .botao {
+
+    background-color: #020617;
+    transition: 0.3s;
+
+}
+
+.chamada .botao:hover {
+
+    background-color: #111827;
+
+}
